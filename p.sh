@@ -30,5 +30,5 @@ pip install --upgrade pip setuptools
 echo -e "${GREEN}İşlem tamamlandı!${NC}"
 echo -e "Sanal ortamı kullanmak için şunu çalıştırın:\n"
 echo -e "${YELLOW}source $VENV_DIR/bin/activate${NC}"
-#echo -e "Çıkış yapmak için: ${YELLOW}deactivate${NC}\n"
-
+echo -e "Çıkış yapmak için: ${YELLOW}deactivate${NC}\n"
+source ~/my_python_env/bin/activate
